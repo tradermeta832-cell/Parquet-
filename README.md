@@ -1,1 +1,20 @@
-# Parquet-
+parquet-
+{
+  "name": "jetx-power-5x",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "JETX POWER 5X - statistiques indicatives",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^8.0.1"
+  }
+}
